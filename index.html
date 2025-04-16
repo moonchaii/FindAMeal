@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>Find a Meal</title>
     <link rel = "stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,6 +16,21 @@
         <div class = "ingredient-search-box">
             <input type = "text" class = "search-content" placeholder="Enter an ingredient" id = "search-input">
             <button type = "submit" class = "search-btn btn" id = "search-btn">
+            </button>
+        </div>
+        <div class = "search-results">
+            <h2 class = "title">Here are your results</h2>
+            <div id = "meal">
+                <!-- meal item display-->
+                <div class = "meal-item">
+                    <div class = "meal-img">
+                        <img src = "" alt = "food">
+                    </div>
+                    <div class = "meal-name">
+                        <h3 class = "subheading">Placeholder name</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src = "script.js"></script>
