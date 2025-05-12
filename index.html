@@ -12,28 +12,76 @@
 </head>
 
 <body>
-    <div class = "container">
-        <div class = "page-wrapper">
-            <h2 class = "title">Find a Meal</h2>
-            <div class = "ingredient-search-box">
-                <input type = "text" class = "search-content" placeholder="Enter your ingredients" id = "search-content">
-                <button type = "submit" class = "search-btn btn" id = "search-btn">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-        
-            <div class = "search-results">
-                <h2 class = "title">Here are your results</h2>
-                <div id = "meal">
-                    <!-- meal item display-->
-                    <div class = "meal-item">
-                        <div class = "meal-img">
-                            <img src = "" alt = "food">
+    <div class = "page">
+        <div class = "container">
+            <div class = "page-wrapper">
+                <h2 class = "title">Find a Meal</h2>
+                <div class = "ingredient-search-box">
+                    <input type = "text" class = "search-content" placeholder="Enter your ingredients" id = "search-content">
+                    <button type = "submit" class = "search-btn btn" id = "search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            
+                <div class = "search-results">
+                    <h2 class = "title">Here are your results</h2>
+                    <div id = "meal">
+                        <!-- meal item display -->
+                        <div class = "meal-item">
+                            <div class = "meal-img">
+                                <img src = "food.png" alt = "food">
+                            </div>
+                            <div class = "meal-name">
+                                <h3>Food name</h3>
+                            </div>
+                            <a href = "#" class = "recipe-btn">Get Recipe</a>
                         </div>
-                        <div class = "meal-name">
-                            <h3>Food name</h3>
+                        <div class = "meal-item">
+                            <div class = "meal-img">
+                                <img src = "food.png" alt = "food">
+                            </div>
+                            <div class = "meal-name">
+                                <h3>Food name</h3>
+                            </div>
+                            <a href = "#" class = "recipe-btn">Get Recipe</a>
                         </div>
+                        <div class = "meal-item">
+                            <div class = "meal-img">
+                                <img src = "food.png" alt = "food">
+                            </div>
+                            <div class = "meal-name">
+                                <h3>Food name</h3>
+                            </div>
+                            <a href = "#" class = "recipe-btn">Get Recipe</a>
+                        </div>
+                        <div class = "meal-item">
+                            <div class = "meal-img">
+                                <img src = "food.png" alt = "food">
+                            </div>
+                            <div class = "meal-name">
+                                <h3>Food name</h3>
+                            </div>
+                            <a href = "#" class = "recipe-btn">Get Recipe</a>
+                        </div>
+                        <!-- end of meal item display -->
                     </div>
+                </div>
+
+                <div class = "meal-details">
+                    <!-- recipe close button -->
+                     <button type = "button" class = "btn recipe-close-btn" id= "recipe-close-btn">
+                        <i class = "fas fa-times"></i>
+                     </button>
+
+                    <!-- meal details -->
+                     <div class = "meal-recipe-content">
+                        <h2 class = "recipe-title">Meal's Name Here</h2>
+                        <p class = "meal-category">Category Name</p>
+                        <div class = "recipe-instructions">
+                            <h3>Instructions</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis rem aliquid, ex harum voluptate in, voluptatum officia nostrum neque blanditiis, minus quaerat aliquam. Aliquid perspiciatis omnis molestias explicabo enim.</p>
+                        </div>
+                     </div>
                 </div>
             </div>
         </div>
