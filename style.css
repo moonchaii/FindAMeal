@@ -1,12 +1,43 @@
 /* style.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.merriweather-merrifont
-    {
-    font-family: "Merriweather", serif;
+.noto-sans-noto 
+{
+    font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 100;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-    }
+    "wdth" 100;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --tan: #f5d591;
+    --sage: #8cc24f;
+    --yellow: #ffd100;
+    --red: #be2b0f;
+    --beige: #dc9255;
+}
+
+body
+{
+    font-weight: 300;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.05;
+    line-height: 1.6;
+}
+
+.btn
+{
+    font-family: inherit;
+    
+}

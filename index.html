@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <title>Find a Meal</title>
     <link rel = "stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
-<body>
 
+<body>
     <div class = "container">
-        <h2 class = "title">Find meals for your ingredients</h2>
+        <h2 class = "title">Find a Meal</h2>
         <div class = "ingredient-search-box">
-            <input type = "text" class = "search-content" placeholder="Enter an ingredient" id = "search-input">
+            <input type = "text" class = "search-content" placeholder="Enter a recipe" id = "search-input">
             <button type = "submit" class = "search-btn btn" id = "search-btn">
+                <i class="fas fa-search"></i>
             </button>
         </div>
         <div class = "search-results">
@@ -27,7 +29,7 @@
                         <img src = "" alt = "food">
                     </div>
                     <div class = "meal-name">
-                        <h3 class = "subheading">Placeholder name</h3>
+                        <h3>Food name</h3>
                     </div>
                 </div>
             </div>
