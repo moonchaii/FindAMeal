@@ -26,6 +26,8 @@
     --yellow: #ffd100;
     --red: #be2b0f;
     --beige: #dc9255;
+    --beige-dark: #cd8a52;
+    --cream: #FFFDD0;
 }
 
 body
@@ -39,5 +41,92 @@ body
 .btn
 {
     font-family: inherit;
-    
+}
+
+.title
+{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container
+{
+    background: var(--tan);
+    min-height: 100vh;
+}
+
+.page-wrapper
+{
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1280px;
+    background: var(--cream);
+    text-align: center;
+}
+
+.ingredient-search-box
+{
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.search-content,
+.search-btn
+{
+    width: 100%;
+}
+
+.search-content
+{
+    padding: 0 1rem;
+    font-size: 1.0rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid var(--beige);
+    color: var(--beige);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.search-content::placeholder
+{
+    color: var(--beige);
+}
+
+.search-btn
+{
+    width: 80px;
+    height: 55px;
+    font-size: 1.4rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid var(--beige);
+    background-color: var(--beige);
+    color: #FFFFFF;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.search-btn:hover
+{
+    background-color:var(--beige-dark);
+}
+
+#meal
+{
+    margin: 2rem 0;
+}
+
+.meal-item
+{
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+}
+
+.meal-item:hover
+{
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 1);
 }
